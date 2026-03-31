@@ -91,39 +91,112 @@ Customers are classified based on the following condition:
 
 The following analyses were conducted:
 
-<ul>
-  
+<ul> 
 <h5>Descriptive Statistics</h5>
 <li>Mean</li>  
- <li>Median</li>  
- <li>Mode</li>
-  
-  Standard deviation
-  
-Churn Analysis
-
-  High churn customers
-  
-  Low churn customers
-  
-  Comparison between both groups
-
-Group-Based Analysis
-
-  Age group vs churn
-
-  Gender vs churn
-
-  Active vs inactive customers
-
-  Number of products vs churn
-
-Relationship Analysis
-
-  Balance vs churn
-
-  Credit score vs churn
-
-  Tenure vs churn
-
+<li>Median</li>  
+<li>Mode</li>  
+<li>Standard deviation</li>
+<h5>Churn Analysis</h5>
+<li>High churn customers</li>
+<li>Low churn customers</li>
+<li>Comparison between both groups</li>
+<h5>Group-Based Analysis</h5>
+<li>Age group vs churn</li>
+<li>Gender vs churn</li>
+<li>Active vs inactive customers</li>
+<li>Number of products vs churn</li>
+<h5>Relationship Analysis</h5>
+<li>Balance vs churn</li>
+<li>Credit score vs churn</li>
+<li>Tenure vs churn</li>
  </ul> 
+<hr>
+ <h2>DATA VISUALIZATION</h2>
+
+The project includes several visualizations:
+
+<b> <i>
+
+| CHART        | PURPOSE                       | GRAPH UNDERSTANDING / KEY POINTS                    |
+| ------------ | ----------------------------- | --------------------------------------------------- |
+| Bar Chart    | Churn distribution            | Shows number of churn vs non-churn customers        |
+| Pie Chart    | Churn percentage              | Displays percentage of churned customers            |
+| Histogram    | Age distribution              | Shows how customer ages are spread                  |
+| Scatter Plot | Balance vs Credit Score       | Shows relationship between balance and credit score |
+| Box Plot     | Balance vs churn              | Identifies variation and outliers                   |
+| Heatmap      | Correlation between variables | Shows relationships between features                |
+
+</b> </i>
+<hr>
+
+<h2>BAR CHART</h2>
+
+<img width="476" height="363" alt="image" src="https://github.com/user-attachments/assets/1257d830-3e3e-45cc-a672-2645dd507011" />
+
+
+
+<hr>
+
+<h2>PIE CHART</h2>
+
+<img width="358" height="327" alt="image" src="https://github.com/user-attachments/assets/3be55102-9d66-46f4-989a-29e6cf5cc145" />
+
+
+
+<hr>
+
+<h2>HISTOGRAM</h2>
+
+<img width="449" height="348" alt="image" src="https://github.com/user-attachments/assets/322ddae4-e6a6-4c57-98f0-ba9388e10abb" />
+
+
+
+<hr>
+
+<h2>SCATTER PLOT</h2>
+
+<img width="454" height="360" alt="image" src="https://github.com/user-attachments/assets/928b0d40-048e-4530-b213-92259633f71a" />
+
+
+
+<hr>
+
+<h2>BOX PLOT</h2>
+
+<img width="476" height="364" alt="image" src="https://github.com/user-attachments/assets/15154387-8ce9-40e8-be89-f32b0354eadc" />
+
+
+
+<hr>
+
+<h2>HEATMAP</h2>
+
+<img width="516" height="427" alt="image" src="https://github.com/user-attachments/assets/f39cc56e-559a-4282-8874-0fbd0fb3968d" />
+
+
+
+<hr>
+
+<h2>TECHNOLOGIES USED</h2>
+<ul>
+<li>Python</li>
+<li>Pandas</li>
+<li>NumPy</li>
+<li>Matplotlib</li>
+<li>Seaborn</li>
+</ul>
+<hr>
+<h2>EXPECTED OUTCOME</h2>
+The analysis helps to:
+<ul>
+<li>Understand customer behavior</li>
+<li>Identify high-risk churn customers</li>
+<li>Detect patterns affecting churn</li>
+<li>Support business decision-making</li>
+<li>Improve customer retention strategies</li>
+</ul>
+<hr>
+<h2>CONCLUSION</h2>
+This project demonstrates how customer data can be analyzed using Python and data science techniques. By generating synthetic data and applying Exploratory Data Analysis (EDA), meaningful insights can be derived to understand customer behavior and reduce churn.
+<hr>
